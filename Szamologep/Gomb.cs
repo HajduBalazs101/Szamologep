@@ -39,8 +39,7 @@ namespace Szamologep
             {
                 return szam.ToString();
             }
-
-            return nyersSzoveg;
+            return jelenlegiText;
         }
     }
 }
