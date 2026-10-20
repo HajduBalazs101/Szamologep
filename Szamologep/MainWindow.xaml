@@ -1,0 +1,11 @@
+﻿<Window x:Class="Szamologep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Számológép" Height="320" Width="260">
+    <StackPanel Margin="10">
+        <TextBox x:Name="Kijelzo" FontSize="35" Text="0" TextAlignment="Right" IsReadOnly="True" Margin="0,0,0,10" Height="50"/>
+
+        <StackPanel x:Name="GombokHelye" Orientation="Vertical">
+        </StackPanel>
+    </StackPanel>
+</Window>
